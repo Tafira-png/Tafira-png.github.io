@@ -1,0 +1,941 @@
+
+[disabled]
+{
+    color:grey;
+}
+
+.btn
+{
+	font-weight: bold;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#ffa500' , EndColorStr= '#ffa500' );
+	color: white;
+	border-top-style: none;
+	font-family: Tahoma;
+	border-right-style: none;
+	border-left-style: none;
+	background-color: orange;
+	border-bottom-style: none;
+}
+
+.btn_hover
+{
+	font-weight: bold;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= 'yellow' , EndColorStr= '#ffa500' );
+	cursor: hand;
+	color: gray;
+	border-top-style: none;
+	border-bottom: none;
+	font-family: Tahoma;
+	border-right-style: none;
+	border-left-style: none;
+	background-color: orange;
+}
+
+
+.context
+{
+	font-weight: bold;
+	font-size: 10pt;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= 'gray' , EndColorStr= 'gray' );
+	width: 100px;
+	color: white;
+	border-bottom: black thin solid;
+	font-family: Tahoma;
+	height: 20px;
+	background-color: #081A4C;
+	text-align: center;
+	cursor: default;
+}
+
+.context_hover
+{
+	font-weight: bold;
+	font-size: 10pt;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#081A4C' , EndColorStr= '#081A4C' );
+	width: 100px;
+	color: black;
+	border-bottom: black thin solid;
+	font-family: Tahoma;
+	height: 20px;
+	background-color: #081A4C;
+	text-align: center;
+	cursor: hand;
+}
+
+.context_main
+{
+	border-right: black thin solid;
+	border-top: black thin solid;
+	border-left: black thin solid;
+	background-color: gray;
+	width: 100px;
+}
+
+.uri
+{
+	cursor: default;
+}
+
+.uri_hover
+{
+	cursor: hand;
+}
+
+.font_main
+{
+	font-size: 10pt;
+	color: gray;
+	font-family: Tahoma;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.news
+{
+	font-size: 8pt;
+	overflow: auto;
+	color: gray;
+	font-family: Tahoma;
+	height: 225px;
+	border-right: none;
+	border-left: none; 
+	border-top: none; 
+	border-bottom: none;  
+	
+}
+
+.display_none
+{
+	display: none;
+}
+
+TR.diseases
+{
+	text-decoration: none;
+	font-size: 8pt;
+	cursor: default;
+	color: white;
+	font-family: Tahoma;
+	text-align: left;
+}
+
+.topNavMenu
+{
+	text-decoration: none;
+	border-right: white thin solid;
+	font-weight: bold;
+	font-size: 10pt;
+	cursor: default;
+	color: white;
+	font-family: Tahoma;
+	background-color: #081A4C;
+	text-align: center;
+}
+
+.topNavMenu_hover
+{
+	text-decoration: none;
+	border-right: white thin solid;
+	font-weight: bold;
+	font-size: 10pt;
+	cursor: hand;
+	color: white;
+	font-family: Tahoma;
+	background-color: #99ccff;
+	text-align: center;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#6699ff' , EndColorStr= '#081A4C' );
+}
+
+.navMenu_noBorder_alignCenter
+{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 10pt;
+	cursor: default;
+	color: white;
+	font-family: Tahoma;
+	background-color: #081A4C;
+	text-align: center;
+}
+
+.navMenu_hover_noBorder_alignCenter
+{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 10pt;
+	cursor: hand;
+	color: white;
+	font-family: Tahoma;
+	background-color: #99ccff;
+	text-align: center;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#6699ff' , EndColorStr= '#081A4C' );
+}
+
+.navMenu_noBorder
+{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 10pt;
+	cursor: default;
+	color: white;
+	font-family: Tahoma;
+	background-color: #081A4C;
+	text-align: left;
+}
+
+.navMenu_hover_noBorder
+{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 10pt;
+	cursor: hand;
+	color: white;
+	font-family: Tahoma;
+	background-color: #99ccff;
+	text-align: left;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#6699ff' , EndColorStr= '#081A4C' );
+}
+
+.navMenu_bottomBorder
+{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 10pt;
+	cursor: default;
+	color: white;
+	font-family: Tahoma;
+	background-color: #081A4C;
+	text-align: left;
+    border-bottom: white thin solid;
+}
+
+
+
+.navMenu_hover_bottomBorder
+{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 10pt;
+	cursor: hand;
+	color: white;
+	font-family: Tahoma;
+	background-color: #99ccff;
+	text-align: left;
+	border-bottom: white thin solid;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#6699ff' , EndColorStr= '#081A4C' );
+}
+
+TABLE.News
+{
+	border-right: #081A4C thin solid;
+	padding-right: 0px;
+	border-top: #081A4C thin solid;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	border-left: #081A4C thin solid;
+	width: 175px;
+	padding-top: 0px;
+	border-bottom: #081A4C thin solid;
+	background-color: white;
+}
+
+TABLE.Announcements
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 9pt;
+	border-left-color: #081A4C;
+	border-bottom-color: #081A4C;
+	padding-bottom: 0px;
+	width: 80%;
+	border-top-style: none;
+	border-top-color: #081A4C;
+	padding-top: 0px;
+	font-family: tahoma;
+	border-right-style: none;
+	border-left-style: none;
+	background-color: white;
+	border-right-color: #081A4C;
+	border-bottom-style: none;
+}
+
+TR.NewsTitle
+{
+	font-size: 10pt;
+	color: white;
+	font-family: Tahoma;
+	background-color: #081A4C;
+	text-align: center;
+}
+
+TR.News
+{
+	font-size: 10pt;
+	font-family: Tahoma;
+	color: #081A4C;
+	background-color: white;
+}
+
+.MainBody
+{
+	font-size: 11pt;
+	margin: 15px;
+	color: black;
+	font-family: Tahoma;
+}
+
+
+.NewsTable
+{
+	BORDER-RIGHT: #081A4C thin solid; 
+	BORDER-TOP: #081A4C thin solid; 
+	BORDER-LEFT: #081A4C thin solid; 
+	BORDER-BOTTOM: #081A4C thin solid; 
+	BACKGROUND-COLOR: white;
+	height: 175px;
+	width:	175px;
+}
+
+.NewsHeader
+{
+	font-weight: bold;
+	font-size: 10pt;
+	color: white;
+	font-family: Tahoma;
+	height: 20px;
+	background-color: #081A4C;
+	text-align: center;
+}
+
+
+.NewsText
+{
+	COLOR: #081A4C; 
+	FONT-FAMILY: tahoma;
+	font-size: 8pt;
+	height: 155px;
+}
+
+.NewsDiv
+{
+	OVERFLOW: auto;
+	height: 100%;
+}
+
+.NewsLinks
+{
+	COLOR: #081A4C; 
+}
+
+.MainLinks
+{
+	font-size: medium;
+	cursor: hand;
+	color: #081A4C;
+	text-decoration: underline;
+	font-family:Tahoma;
+}
+.RegularLinks
+{
+	font-size:x-small;
+	cursor: hand;
+	color:Navy;
+	font-family:Tahoma;
+	text-decoration: underline;
+}
+.MainText
+{
+	font-size: medium;
+	cursor: hand;
+	color: #081A4C;
+}
+
+
+.body
+{
+	margin: 0px;
+}
+
+
+
+.BorderPortal
+{
+	border-right: #143868 outset;
+	border-top: #143868 outset;
+	border-left: #143868 outset;
+	border-bottom: #143868 outset;
+}
+
+
+.HeaderPortal
+{
+	font-weight: bold;
+	font-size: 10pt;
+	font-family: tahoma;
+	color: white;
+	background-color: #143868;
+	text-align: center;
+}
+
+
+.RowPortal
+{
+	font-size: 10pt;
+	font-family: tahoma;
+	background-color: #F0F8FF;
+}
+
+.RowAltPortal
+{
+	font-size: 10pt;
+	font-family: tahoma;
+	background-color: Silver;
+}
+
+
+.GridBorder
+{
+	border-right: #081A4C outset;
+	border-top: #081A4C outset;
+	border-left: #081A4C outset;
+	border-bottom: #081A4C outset;
+}
+
+
+.GridBorderLogo
+{
+	border-right: #081A4C outset;
+	border-top: #081A4C outset;
+	border-left: #081A4C outset;
+	border-bottom: #081A4C outset;
+}
+
+.GridHeaderLogo
+{
+	font-weight: bold;
+	font-size: 10pt;
+	font-family: tahoma;
+	color: white;
+	background-color: #081A4C;
+	text-align: center;
+}
+
+.GridHeader
+{
+	font-weight: bold;
+	font-size: 10pt;
+	font-family: tahoma;
+	color: white;
+	background-color: #081A4C;
+	text-align: center;
+}
+
+.GridEdit
+{
+	font-size: 10pt;
+	color: black;
+	font-family: tahoma;
+	background-color: #ffcc00;
+	text-align: center;
+}
+
+.GridRow
+{
+	font-size: 10pt;
+	font-family: tahoma;
+	background-color: aliceblue;
+}
+
+.GridRowAlt
+{
+	font-size: 10pt;
+	font-family: tahoma;
+	background-color: gainsboro;
+}
+
+.GridRowError
+{
+	font-size: 10pt;
+	font-family: tahoma;
+	background-color: red;
+}
+
+.GridHeaderSmall
+{
+	padding-left: 7px;
+	font-weight: bold;
+	font-size: 9pt;
+	font-family: tahoma;
+	color: white;
+	background-color: #081A4C;
+	text-align: left;
+}
+
+.GridHeader2
+{
+	border:1px;
+	padding-left: 7px;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 11pt;
+	color: white;
+	background-color: #081A4C;
+	text-align: left;
+}
+.GridRow2
+{
+	font-size: 9pt;
+	background-color: white;
+}
+
+.GridRow3
+{
+	font-size: 10pt;
+	font-family: tahoma;
+}
+
+.GridRowAlt2
+{
+	font-size: 9pt;
+	background-color: gainsboro;
+}
+.GridFooter
+{
+	font-weight: bold;
+	font-size: 11pt;
+	background-color: white;
+	text-align: center;
+}
+
+.GridPager
+{
+	font-size: 10pt;
+	color: black;
+	font-family: tahoma;
+	background-color: whitesmoke;
+	text-align: center;
+}
+
+.GridPagerLeft
+{
+	font-size: 10pt;
+	color: black;
+	font-family: tahoma;
+	background-color: whitesmoke;
+	text-align: left;
+}
+
+.GridPagerResults
+{
+	font-size: 10pt;
+	color: black;
+	font-family: tahoma;
+	background-color: whitesmoke;
+	text-align: left;
+}
+
+.HR
+{
+	background-color: #081A4C;
+}
+
+.Label
+{
+	font-size: 10pt;
+	font-family: Tahoma;
+	
+}
+
+.LabelBold
+{
+	font-weight: bold;
+	font-size: 10pt;
+	font-family: Tahoma;
+}
+
+.LabelSmall
+{
+	font-size: 8pt;
+	font-family: Tahoma;
+}
+
+.LabelSearch
+{
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+.LabelSearchUnderline
+{
+	font-weight: bold;
+	font-size: 10pt;
+	font-family: Tahoma;
+	text-decoration: underline;
+}
+
+.LabelTitle
+{
+	font-weight: bold;
+	font-size: 14pt;
+	font-family: Tahoma;
+}
+
+.PageAction
+{
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 14pt;
+	color: white;
+	background-color: #081A4C;
+}
+
+.RequiredField
+{
+	font-size: 10pt;
+	color: red;
+}
+
+.SectionTitle
+{
+	padding-left: 7px;
+	font-weight: bold;
+	font-size: 11pt;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr= '#081A4C' , EndColorStr= '#6699ff' );
+	color: white;
+	font-family: Tahoma;
+	background-color: #081A4C;
+}
+
+.SectionTitleFadeToWhite
+{
+	padding-left: 7px;
+	font-weight: bold;
+	font-size: 11pt;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#ffffff' , EndColorStr= '#081A4C' );
+	color: white;
+	font-family: Tahoma;
+	background-color: #ffffff;
+}
+
+.SectionTitleFadeFromWhite
+{
+	padding-left: 7px;
+	font-weight: bold;
+	font-size: 11pt;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#081A4C' , EndColorStr= '#ffffff' );
+	color: white;
+	font-family: Tahoma;
+	background-color: #081A4C;
+}
+
+.Menu
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT-SIZE: 10pt;
+    font-weight:bold;
+    BORDER-LEFT: 0px;
+    WIDTH: 175;
+    BORDER-BOTTOM: 0px;
+    border-color:#081A4C;
+    FONT-FAMILY: tahoma, verdana, arial, sans-serif;
+    TEXT-ALIGN: left;
+    background-color:#081A4C;
+    color:White
+}
+
+.BottomMenu
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT-SIZE: 10pt;
+    font-weight:bold;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px;
+    border-color:#081A4C;
+    FONT-FAMILY: tahoma, verdana, arial, sans-serif;
+    TEXT-ALIGN: center;
+    background-color:#081A4C;
+    color:White
+}
+
+.GridLink
+{
+	font-size: 10pt;
+	color: blue;
+	font-family: tahoma;
+	text-decoration: underline;
+	cursor: hand;
+}
+
+.GroupTable
+{
+	border-right: #000099 thin solid;
+	border-top: #000099 thin solid;
+	border-left: #000099 thin solid;
+	border-bottom: #000099 thin solid;
+}
+
+.MessageNone
+{
+
+}
+
+.MessageSuccess
+{
+	border-right: lime thin solid;
+	border-top: lime thin solid;
+	font-weight: bold;
+	font-size: 10pt;
+	border-left: lime thin solid;
+	color: black;
+	border-bottom: lime thin solid;
+	font-family: tahoma;
+}
+
+.MessageError
+{
+	border-right: red thin solid;
+	border-top: red thin solid;
+	font-size: 10pt;
+	border-left: red thin solid;
+	color: red;
+	border-bottom: red thin solid;
+	font-family: tahoma;
+}
+
+.gridToolTip
+{
+	border-right: black 1px solid;
+	padding-right: 1px;
+	border-top: black 1px solid;
+	padding-left: 1px;
+	z-index: 1200;
+	left: 0px;
+	visibility: hidden;
+	padding-bottom: 2px;
+	font: 8pt bold tahoma,sans-serif;
+	border-left: black 1px solid;
+	color: black;
+	padding-top: 2px;
+	border-bottom: black 1px solid;
+	position: absolute;
+	top: 0px;
+	background-color: #ffffcc;
+}
+
+.gridHover
+{
+	background-color: #ffffcc;
+}	
+
+.gridHoverHtml
+{
+	font-size: 10pt;
+	font-family: tahoma;
+	background-color: #ffffcc;
+}	
+
+.linkMenu
+{
+	color: yellow;
+	text-decoration: underline;
+}
+
+.welcomeText
+{
+	font-weight: bold;
+	font-size: 10pt;
+	color: #081A4C;
+	font-family: tahoma;
+}
+
+.rowBottomBorder
+{
+	border-bottom: lightgrey thin solid;
+}
+
+.customToolTip
+{
+	border-right: black 1px solid;
+	padding-right: 4px;
+	border-top: black 1px solid;
+	padding-left: 4px;
+	z-index: 200;
+	left: 0px;
+	visibility: hidden;
+	padding-bottom: 4px;
+	font: 8pt Tahoma, Arial;
+	border-left: black 1px solid;
+	color: black;
+	padding-top: 4px;
+	border-bottom: black 1px solid;
+	position: absolute;
+	top: 0px;
+	background-color: lemonchiffon;
+}
+
+.tabSelected
+{
+	border-right: #6633cc medium solid;
+	border-top: #6633cc medium solid;
+	font-weight: bold;
+	font-size: x-small;
+	border-left: #6633cc medium solid;
+	border-bottom: #6633cc medium solid;
+	cursor: hand;
+	color: white;
+	font-family: tahoma;
+	background-color: #6633cc;
+}
+
+.tabRight
+{
+	border-right: #6633cc thin solid;
+	border-top: #6633cc thin solid;
+	border-bottom: #9999ff medium solid;
+	border-left: #9999ff thin solid;
+	font-weight: bold;
+	font-size: x-small;
+	cursor: hand;
+	color: white;
+	font-family: tahoma;
+	background-color: #9999ff;
+}
+
+.tabLeft
+{
+	border-top: #6633cc thin solid;
+	border-bottom: #9999ff medium solid;
+	border-left: #6633cc thin solid;
+	border-right: #9999ff thin solid;
+	font-size: x-small;
+	font-weight: bold;
+	color: white;
+	font-family: tahoma;
+	background-color: #9999ff;
+	cursor: hand;
+}
+
+.tabRemainder
+{
+	width: 100pt;
+	border-bottom: #00ff66 thin solid;
+}
+
+.tabTable
+{
+	border-bottom: #6633cc thin solid;
+	border-right: #6633cc thin solid;
+	border-left: #6633cc thin solid;
+}
+
+.tabTableContainer
+{
+	border-bottom: #6633cc thin solid;
+}
+
+.aeTable
+{
+	border-bottom: #6633cc thin solid;
+	border-right: #6633cc thin solid;
+	border-left: #6633cc thin solid;
+	border-top: #6633cc thin solid;
+}
+.bodymedred
+{
+	font-size: 12px;
+	color: red;
+	font-family: tahoma, verdana, arial, sans-serif;
+}
+.bodymedblue
+{
+	font-size: 12px;
+	color: blue;
+	font-family: tahoma, verdana, arial, sans-serif;
+}
+
+.GridOdd
+{
+	background-color: white;
+}
+
+.GridEven
+{
+	background-color:Silver;
+}
+
+
+
+.ShippingSteps
+{
+	font-weight: bold;
+	font-size: 10pt;
+	font-family: Tahoma;
+	background-color: lemonchiffon;
+}
+
+
+.ReportStatusChangeSteps
+{
+	font-weight: bold;
+	font-size: 10pt;
+	font-family: Tahoma;
+	background-color: lemonchiffon;
+}
+
+
+.floatingDiv
+{
+	border-right: darkblue solid;
+	border-top: darkblue solid;
+	z-index: 1000;
+	border-left: darkblue solid;
+	width: 100%;
+	border-bottom: darkblue solid;
+	position: relative;
+	top: -400px;
+	background-color: white;
+	display: block;
+}
+
+.hideFloatingDiv
+{
+	display: none;
+}
+
+.floatingBody
+{
+	height: 100%;
+	margin: 0;
+}
+
+.cellEmulator
+{
+	border-right: black thin solid;
+	border-bottom: black thin solid;
+	text-align: center;
+}
+.cellEmulatorLeft
+{
+	
+	BORDER-LEFT: black thin solid; 
+	BORDER-BOTTOM: black thin solid;
+	text-align: center;
+}
+
+.rowSeparator
+{	
+	padding:0 px;
+	BORDER-LEFT: 0px;
+	border-right: 0px; 
+	BORDER-BOTTOM: ridge;
+	text-align:left;
+	vertical-align: top;			
+}
+
+
+
+
+

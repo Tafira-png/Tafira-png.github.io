@@ -1,0 +1,78 @@
+h1 {
+ 
+ font-family: Helvetica;
+  font-weight: 100;
+}
+
+body {
+ 
+ color:#A9D0F5;
+	text-align:center;
+
+}
+.myMenu {
+	margin:0;
+	padding:0;
+	
+}
+.myMenu li {
+	list-style:none;
+	float:left;
+	font:12px Arial, Helvetica;
+	color: #FFFFFF;
+	border: 0px solid #BBB;
+	background:url("graphics/menu_bg.gif");
+	    }
+
+
+
+
+.myMenu li a:link, .myMenu li a:visited {
+	display:block;
+	text-decoration:none;
+	background:url("graphics/vertical_menu.jpg");
+	padding: 0.5em 4em;
+	margin:0;
+	border-right: 1px solid #fff;
+	color: #FFFFFF;
+}
+
+.myMenu li a:hover {
+	background:url("graphics/vertical_menu.jpg");
+}
+
+/*style the sub menu*/
+.myMenu li ul {
+	position:absolute;
+	visibility:hidden;
+	border-top:1px solid #fff;
+	margin:0;
+	padding:0;
+}
+
+.myMenu li ul li {
+	display:inline;
+	float:none;
+}
+
+.myMenu li ul li a:link, .myMenu li ul li a:visited {
+	background:url("graphics/vertical_menu.jpg");
+	width:auto;
+}
+
+.myMenu li ul li a:hover 
+{
+    border-right: 0px solid #0C193F;
+	background-image:url("graphics/menu_bg_over.gif");
+	background-position: top righ;
+	background-repeat: no-repeat;
+}
+.myMenu li ul li a:hover  
+{
+    background-image: url("graphics/arrow_hover.gif");
+    background-position: 100% 45% ;}
+
+.body1 { 
+    background-image:url("graphics/gradient-bg.png");
+    background-repeat: repeat;}
+    
