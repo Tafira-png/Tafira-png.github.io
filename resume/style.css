@@ -115,12 +115,12 @@ section:last-child {
 
 .sectionTitle {
 	float: left;
-	width: 10%;
+	width: 20%;
 }
 
 .sectionContent {
 	float: right;
-	width: 90%;
+	width: 80%;
 	text-align: justify;
 	text-indent: 10px;
 }
