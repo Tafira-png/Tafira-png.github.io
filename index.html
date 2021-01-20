@@ -322,12 +322,10 @@
 
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.js" type="text/javascript"></script>
-<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js" type="text/javascript"></script>
 <script type="text/javascript">
     // Get the modal
     var modal = document.getElementById('myModal');
     var modalButton = document.getElementById("modalButton")
-    console.log(modalButton)
     var modal1 = document.getElementById('modal1')
 
 
@@ -355,7 +353,6 @@
         this.classList.toggle("active");
 
         var modal = this.nextElementSibling
-        console.log(modal)
         if (modal.style.maxHeight) {
             modal.style.maxHeight = null;
             // modal.style.display = null; 
